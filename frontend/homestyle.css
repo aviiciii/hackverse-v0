@@ -1,5 +1,33 @@
-.image {
-    height: 45px;
-    weight: 10px;
-    margin-top: 13px;
+
+
+.pics{
+    display: flex;
+    padding-left: 200px;
+    
+    
+    
+}
+.product1{
+    display: flex;
+    padding: 50px  80px 50px 80px;
+    padding-left: 200px;
+   
+    
+    
+}
+
+.details{
+    padding: 50px  80px 50px 80px;
+    margin-top: 20px;
+    background-color: lightblue;
+
+}
+
+.connect{
+    text-align: center;
+    margin-left: 1100px;
+}
+
+.bi-wallet2{
+    margin-top: 9px;
 }
