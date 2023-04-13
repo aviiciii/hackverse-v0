@@ -63,11 +63,14 @@
             
             
         }
-        
+        .row{
+            padding-right: 10px;
+        }
         .details{
             padding: 50px  80px 50px 80px;
             margin-top: 20px;
             background-color: lightblue;
+            
            
         
         }
