@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    .navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family:'Lobster','Sans-serif';
+    }
+    .navbar-brand:hover{
+        color:black;
+    }
+    .nav-link{
+        margin-right:10px;
+        margin-left:10px;
+        color:#454545;
+        font-family:'rubik' ,'sans-serif';
+        text-transform:uppercase;
+    }
+    .nav-link:hover{
+        color:#B9EDDD;
+    }
+   
+    .search{
+        height: 40px;
+        width: 80%;
+        border-radius: 60px;
+        outline: none;
+        margin-right:-35px;
+        border: 2px solid #B46060;
+        }
+        .btn0{
+            height: 40px;
+            width: 40%;
+            outline: none;
+            border: none;
+            background:#B46060;  
+            color:white;
+            font-weight:700;
+            border-radius: 60px;
+
+        }
+        .wallet{
+            display: flex;
+            margin-left: auto;
+            
+        }
+
+
+        .pics{
+            display: flex;
+            padding-left: 200px;
+            
+            
+            
+        }
+        .product1{
+            display: flex;
+            padding: 50px  80px 50px 80px;
+            padding-left: 200px;
+           
+            
+            
+        }
+        
+        .details{
+            padding: 50px  80px 50px 80px;
+            margin-top: 20px;
+            background-color: lightblue;
+           
+        
+        }
+        
+        .connect{
+            text-align: center;
+            margin-left: 1100px;
+        }
+        
+        .bi-wallet2{
+            margin-top: 9px;
+        }
+        
+        .product4{
+            display: flex;
+            position: relative;
+            
+            
+        }
+        .details1{
+            text-align: right;
+            padding-bottom: 500px;
+        }
+
+        .btn-toolbar{
+            margin-left: 250px;
+           
+        }
