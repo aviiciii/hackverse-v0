@@ -302,4 +302,12 @@ nav ul i{
             text-align: right;
             padding-bottom: 500px;
         }
-      
+        #product2{
+            display: flex;
+            padding: 50px  80px 50px 80px;
+            padding-left: 200px;
+            
+           
+            
+            
+        }
