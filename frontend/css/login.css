@@ -7,7 +7,7 @@
     font-family: 'Poppins',sans-serif;
 }
 body{
-    background: aqua;
+    background-color: #F5EBEB;
 }
 .container{
     display: flex;
