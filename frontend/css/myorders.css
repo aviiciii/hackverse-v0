@@ -1,12 +1,6 @@
 .gradient-custom-2 {
    
-    background: #a1c4fd;
-    
-    
-    background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1));
-    
-    
-    background: linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1))
+    background-color: #F5EBEB;
     }
     
     #progressbar-1 {
