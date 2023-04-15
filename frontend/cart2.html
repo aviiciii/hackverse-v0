@@ -36,6 +36,7 @@
     <script src="js/cart.js"></script>
 </head>
 <body>
+  <!--navbar using bootstrap-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Dummy bawa</a>
@@ -60,7 +61,7 @@
               <i class="bi bi-wallet2"></i>
             </ul>
             
-            
+            <!--search bar using bootstrap-->
             <form class="d-flex" role="search">
               <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
               <button class="btn0 type="submit>Search</button>
@@ -69,15 +70,12 @@
         </div>
       </nav>
         </div>
-        
+        <!--sidebar contents-->
         <div class="main h-screen flex">
             <div class="hidden md:block border-t-2 border-gray-700 main-sidebar w-1/5 bg-gray-900 p-6">
                 <div class="sidebar-categories">
                     <div class="sidebar-main-category text-blue-500 cursor-pointer flex font-bold p-2 bg-gray-700 rounded-lg">
-                        <span class="w-8">
-                            
-                           
-                            
+                        <span class="w-8">         
                         </span>
                         <span>My Cart</span>
                     </div>
@@ -104,6 +102,7 @@
                    
                 </div>
             </div>
+            <!--carted products-->
             <div class="main-section flex-1 p-6">
                 <h1 class="font-bold text-gray-400 text-3xl mb-6">Shopping Cart</h1>
                 <div class="font-bold text-gray-400 table-titles flex">
@@ -143,6 +142,7 @@
                 <div class="cart-items mt-5">
                     
                 </div>
+                <!--total cost-->  
                 <div class="complete-order flex justify-end mt-10">
                     <div class="total-cost mr-7">
                         <h2 class="text-gray-400">Total Cost</h2>
@@ -150,6 +150,7 @@
                             ₹1,10,299.00
                         </div>
                     </div>
+                    <!--complete order button-->
                     <div class="complete-order-button w-56 flex items-center justify-center bg-blue-500 rounded text-white cursor-pointer hover:bg-blue-600" >
                         Complete Order
                     </div>
