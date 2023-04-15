@@ -277,7 +277,7 @@ nav ul i{
         .details{
             padding: 50px  80px 50px 80px;
             margin-top: 20px;
-            background-color: lightblue;
+            background-color: #F5EBEB
             
            
         
@@ -306,6 +306,7 @@ nav ul i{
             display: flex;
             padding: 50px  80px 50px 80px;
             padding-left: 200px;
+            
             
            
             
