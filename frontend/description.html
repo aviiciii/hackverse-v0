@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <!-- stylesheet -->
+      <link rel="stylesheet" href="css/description.css">
+      <!-- favicon -->
+      <link rel="icon" href="img/favicon.ico">
+      
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dummy</title>
+      <!-- google fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+      <!-- cdn for bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  </head>
+  <body>
+  <!-- navbar using bootstrap -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Dummy bawa</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav m-auto my-2 my-lg-0 ">
+              <!-- contents of navbar -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="myorders.html">My Orders</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="cart2.html">Cart</a>
+              </li>
+                
+              <li class="nav-item m-lg-auto">
+                <a class="nav-link wallet" href="">Connect to Wallet</a>
+              </li>
+              <i class="bi bi-wallet2"></i>
+            </ul>
+            
+            <!-- for search option -->
+            <form class="d-flex" role="search">
+              <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn0 type="submit>Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img id="myImage" src="img/14-1.jfif">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="img/14-2.jfif"  onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img class="myImage" src="img/14-3.jfif"onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img  src="img/14-4.jfif" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img  src="img/14-1.jfif"onclick="showImg(this.src)">
+                </div>
+            </div>
+        </div>
+
+        <!-- javascript for slideshow of image -->
+        <script>
+            var myImage = document.getElementById("myImage");
+var imageIndex = 0;
+var imageList = ["img/14-1.jfif", "img/14-2.jfif", "img/14-3.jfif","img/14-4.jfif"]; // list of images
+
+setInterval(function() {
+    imageIndex++;
+    if (imageIndex >= imageList.length) {
+        imageIndex = 0;
+    }
+    myImage.src = imageList[imageIndex];
+}, 3000); 
+        </script>
+        <!--  -->
+
+        <div class="right">
+            <div class="url">Home >iPhone 14</div>
+            <div class="pname">iPhone 14(Blue)</div>
+            <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₹1,09,000</div>
+            <div class="size">
+                <p>Size :</p>
+                <div class="psize">128 GB</div>
+                <div class="psize active">256GB</div>
+                <div class="psize">512GB</div>
+                <div class="psize">1TB</div>
+            </div>
+            <div class="quantity">
+                <p>Quantity :</p>
+                <input type="number" min="1" max="3" value="1">
+            </div>
+            <div class="btn-box">
+                <button class="cart-btn">Add to Cart</button>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+<!-- javascript to change the existing image when a new image is clicked -->
+    <script>
+        let bigImg = document.querySelector('.big-img img');
+        function showImg(pic){
+            bigImg.src = pic;
+        }
+    </script>
+</body>
+</html>

@@ -97,8 +97,20 @@
            
         }
 
+        .object-contain{
+            width: 10px;
+            height: 10px;
+            margin-left: 5px;
+        }
 
 
+        .address{
+            margin-top: 20px;
+            border-radius: 8px;
+            border-color:darkcyan;
+            margin-left: 900px;
+
+        }
        
 
         
@@ -390,7 +402,7 @@ nav ul i{
             
            
         
-        }
+}
         
         .connect{
             text-align: center;
@@ -411,4 +423,7 @@ nav ul i{
             text-align: right;
             padding-bottom: 500px;
         }
-      
+      .review{
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: solid;      }

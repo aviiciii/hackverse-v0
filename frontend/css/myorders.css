@@ -1,0 +1,283 @@
+.gradient-custom-2 {
+   
+    background-color: #F5EBEB;
+    }
+    
+    #progressbar-1 {
+    color: #455A64;
+    }
+    
+    #progressbar-1 li {
+    list-style-type: none;
+    font-size: 13px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    }
+    
+    #progressbar-1 #step1:before {
+    content: "1";
+    color: #fff;
+    width: 29px;
+    margin-left: 22px;
+    padding-left: 11px;
+    }
+    
+    #progressbar-1 #step2:before {
+    content: "2";
+    color: #fff;
+    width: 29px;
+    }
+    
+    #progressbar-1 #step3:before {
+    content: "3";
+    color: #fff;
+    width: 29px;
+    margin-right: 22px;
+    text-align: center;
+    }
+    
+    #progressbar-1 li:before {
+    line-height: 29px;
+    display: block;
+    font-size: 12px;
+    background: #455A64;
+    border-radius: 50%;
+    margin: auto;
+    }
+    
+    #progressbar-1 li:after {
+    content: '';
+    width: 121%;
+    height: 2px;
+    background: #F5EBEB;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 15px;
+    z-index: -1;
+    }
+    
+    #progressbar-1 li:nth-child(2):after {
+    left: 50%
+    }
+    
+    #progressbar-1 li:nth-child(1):after {
+    left: 25%;
+    width: 121%
+    }
+    
+    #progressbar-1 li:nth-child(3):after {
+    left: 25%;
+    width: 50%;
+    }
+    
+    #progressbar-1 li.active:before,
+    #progressbar-1 li.active:after {
+    background: #1266f1;
+    }
+    
+    .card-stepper {
+    z-index: 0
+    }
+    .ac{
+        margin-left:480px;
+    }
+
+/* hover nav */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+    
+}
+
+   
+   
+    
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8%;
+}
+nav .logo{
+    font-size: 32px;
+    font-weight: 500;
+    cursor: pointer;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    margin: 0 10px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+}
+nav ul li a::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    width: 0;
+    height: 2.5px;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover::before{
+    width: 100%;
+}
+nav ul i{
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.flex-box{
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+}
+.left{
+    width: 40%;
+}
+.big-img{
+    width: 100%;
+    
+}
+
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right:-35px;
+    border: 2px solid #B46060;
+    }
+    .btn0{
+        height: 40px;
+        width: 40%;
+        outline: none;
+        border: none;
+        background:#B46060;  
+        color:white;
+        font-weight:700;
+        border-radius: 60px;
+
+    }
+    .url{
+        margin-top:30px;
+    }
+    .navbar-brand{
+        font-size: 2rem;
+        color: black;
+        font-family:'Lobster','Sans-serif';
+        }
+        .navbar-brand:hover{
+            color:black;
+        }
+        .nav-link{
+            margin-right:10px;
+            margin-left:10px;
+            color:#454545;
+            font-family:'rubik' ,'sans-serif';
+            text-transform:uppercase;
+        }
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    .navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family:'Lobster','Sans-serif';
+    }
+    .navbar-brand:hover{
+        color:black;
+    }
+    .nav-link{
+        margin-right:10px;
+        margin-left:10px;
+        color:#454545;
+        font-family:'rubik' ,'sans-serif';
+        text-transform:uppercase;
+    }
+    .nav-link:hover{
+        color:black;
+    }
+   
+    .search{
+        height: 40px;
+        width: 80%;
+        border-radius: 60px;
+        outline: none;
+        margin-right:-35px;
+        border: 2px solid #B46060;
+        }
+        .btn0{
+            height: 40px;
+            width: 40%;
+            outline: none;
+            border: none;
+            background:#B46060;  
+            color:white;
+            font-weight:700;
+            border-radius: 60px;
+
+        }
+        .wallet{
+            display: flex;
+            margin-left: auto;
+            
+        }
+
+
+        .pics{
+            display: flex;
+            padding-left: 200px;
+            
+            
+            
+        }
+        .product1{
+            display: flex;
+            padding: 50px  80px 50px 80px;
+            padding-left: 200px;
+           
+            
+            
+        }
+        .row{
+            padding-right: 10px;
+        }
+        .details{
+            padding: 50px  80px 50px 80px;
+            margin-top: 20px;
+            background-color: lightblue;
+            
+           
+        
+        }
+        
+        .connect{
+            text-align: center;
+            margin-left: 1100px;
+        }
+        
+        .bi-wallet2{
+            margin-top: 9px;
+        }
+        
+      
